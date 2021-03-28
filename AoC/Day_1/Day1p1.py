@@ -1,6 +1,6 @@
 arr = [] 
 
-txtfile = open("day_1.txt", "r")
+txtfile = open(".\Day_1\day_1.txt", "r")
 arr = txtfile.readlines()
 
 arr = [int(i.split('\n')[0]) for i in arr]
